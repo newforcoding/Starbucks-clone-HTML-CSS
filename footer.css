@@ -1,0 +1,99 @@
+footer {
+	height: 200px;
+	padding: 24px 0;
+}
+.footer-container {
+	padding: 0 40px;
+	display: flex;
+	box-shadow: 0 1px 3px rgb(0 0 0/10%), 0 2px 2px rgb(0 0 0/6%),
+		0 3px 3px rgb(0 0 0/7%);
+}
+.footer-container ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.footer-container ul li {
+	color: rgba(0, 0, 0, 0.56);
+	padding-top: 0.8rem;
+	padding-bottom: 0.8rem;
+	margin-bottom: 0.8rem;
+}
+.footer-container ul li:hover {
+	color: rgba(0, 0, 0, 0.56);
+}
+.links-container {
+	width: 190px;
+	margin-right: 16px;
+}
+footer h3 {
+	font-weight: 700;
+	margin-bottom: 24px;
+}
+.fa {
+	margin-top: 10px;
+	padding-left: 20px;
+	line-height: 2;
+}
+.footer-info {
+	margin-left: 20px;
+}
+.about-info {
+	box-shadow: bisque;
+}
+.right-about {
+	margin: 20px;
+	text-align: center;
+	padding: 30px;
+}
+
+.right-about h1 {
+	text-transform: uppercase;
+}
+.right-about h1,
+.right-about h4 {
+	margin: 0;
+	font-weight: 400;
+}
+.right-about h1 {
+	margin-bottom: 24px;
+}
+.right-about h4 {
+	margin-bottom: 32px;
+	font-size: 19px;
+}
+
+.right-about .cta {
+	padding: 7px 16px;
+	border: 1px solid;
+	border-radius: 50px;
+	font-weight: 700;
+	line-height: 1.2;
+	cursor: pointer;
+	color: #1e3932;
+}
+.cta-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.right-img {
+	display: flex;
+}
+.terms {
+	box-shadow: 0 1px 3px rgb(0 0 0/10%), 0 2px 2px rgb(0 0 0/6%),
+		0 3px 3px rgb(0 0 0/7%);
+	margin: 20px;
+	padding: 34px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(200, 236, 236);
+}
+.terms p {
+	text-align: center;
+	margin-bottom: 30px;
+}
+.term-para p {
+	margin-top: 30px;
+}
